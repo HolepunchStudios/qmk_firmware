@@ -16,9 +16,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       ?
-#define PRODUCT_ID      ?
-#define DEVICE_VER      v80
+#define VENDOR_ID       0xFEED
+#define PRODUCT_ID      0x0000
+#define DEVICE_VER      1.0.0
 #define MANUFACTURER    Holepunch Studios
 #define PRODUCT         Tidal35
 
@@ -40,9 +40,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
 */
-#define MATRIX_ROW_PINS { PC7, PD4, PB7, PD0, }
-#define MATRIX_COL_PINS { PD5, PD3, PD2, PD1, PC6, PF0, PF1, PF4, PF5, PF6 }
-#define UNUSED_PINS { PB0, PB4, PB5, PB6, PD6, PD7, PE6, PF7 }
+#define MATRIX_ROW_PINS { C7, D4, B7, D0 }
+#define MATRIX_COL_PINS { D5, D3, D2, D1, C6, F0, F1, F4, F5, F6 }
+#define UNUSED_PINS { B0, B4, B5, B6, D6, D7, E6, F7 }
 
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW
